@@ -5,7 +5,8 @@ export default defineConfig({
   base: '/oulasalon/',
   plugins: [
     react({
-      jsxRuntime: 'automatic'
+      jsxRuntime: 'automatic',
+      jsxImportSource: 'react'
     })
   ]
 })
